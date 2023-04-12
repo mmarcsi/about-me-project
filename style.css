@@ -4,6 +4,9 @@ body{
   font-family:Cabin;
   font-size:20px;
   letter-spacing:2px;
+  background-image: url("assets/background-2.jpg");
+  background-size: cover;
+  opacity: 0.5;
 }
 
 img:hover {
@@ -20,4 +23,17 @@ img{
     transition: all 0.5s ease-in-out;
     filter: grayscale(40%);
 }
+ p{
+    text-align:justify;
+ }
+#contact-info{
+  width: auto;
+  height: 100px;
+  background: greenyellow;
+  transition: width 2s, height 2s;
 
+}
+#contact-info:hover{
+    width: auto;
+    height: 130px;
+}
