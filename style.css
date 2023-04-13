@@ -6,10 +6,6 @@
   font-size:100%;
 }
 
-/*container background-colours */
-
-
-
 body {
   display:flex;
   justify-content:center;
@@ -19,7 +15,6 @@ body {
   background: url(assets/background-2.jpg) no-repeat center center fixed;
   background-size:cover;
   position:relative;
-  
 }
 
 .profile-card{
@@ -29,13 +24,14 @@ body {
 
 .header{
   position: relative;
-  left: -220px;
-  top:20px;
+  left: -230px;
+  top:60px;
   text-align:center;
   width: 90%;
   padding: 5%;
   background-color: rgba(223, 223, 159, 0.9);
   border-radius:10px;
+  transition: all 1s ease-in-out;
   }
 
 .header:hover{
@@ -44,7 +40,6 @@ body {
 
 .name-headline{
   color:rgb(6, 56, 17);
-  
 }
 
 h1, p{
@@ -68,33 +63,22 @@ p{
 }
 .content{
   position: relative;
-  top:-10px;
+  top: 30px;
   left:100px;
   text-align:justify;
   padding: 7%;
   color:rgb(6, 56, 17);
   background-color: rgba(207, 223, 194, 0.9);
   border-radius:10px;
+  transition: all 1s ease-in-out;
 }
  .content:hover{
   background-color: azure;
  }
 
-.contact-info{
-  position: relative;
-  top: -25px;
-  padding:2%;
-  background-color: rgba(214, 161, 99, 0.8);
-  border-radius:10px;
-}
-
-.contact-info:hover{
-  background-color: antiquewhite;
-}
-
 img{
-  filter: grayscale(30%);
-  transition: all 0.5s ease-in-out;
+  filter: grayscale(10%);
+  transition: all 2s ease-in-out;
   width: 160px;
   height: auto;
   border-radius: 50%;
@@ -103,16 +87,29 @@ img{
 }
 
 img:hover{
-  filter: grayscale(20%);
+  filter: grayscale(30%);
   transform: scale(1.1);
 }
 .contact-info{
   position:relative;
+  top: 5px;
   margin-left:300px;
   text-align:center;
   font-size:25px;
   font-family:"Dancing Script";
+  filter: grayscale(10%);
+  transition: all 1s ease-in-out;
+  padding:2%;
+  background-color: rgba(214, 161, 99, 0.8);
+  border-radius:10px;
 }
+
+.contact-info:hover{
+  filter: grayscale(30%);
+  transform: scale(1.2);
+  background-color: antiquewhite;
+}
+
 ul{
   list-style-type: none;
 }
