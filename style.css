@@ -1,38 +1,45 @@
-body{
-  margin:0 auto 0 auto;
+/* CSS reset */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-size:100%;
+}
+/*container background-colours */
+
+.profile-card{
+  background-color: rgb(166, 255, 0);
+}
+
+.header{
+  background-color: green;
+}
+
+.profile-image{
+  background-color: blueviolet;
+}
+
+.name-headline{
+  background-color: brown;
+}
+
+.content{
+  background-color: cornflowerblue;
+}
+.contact-info{
+  background-color: darkorange;
+}
+
+.profile-card{
+  width: 480px;
+  max-width: calc(100vw - 10px);
+ 
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family:Cabin;
-  font-size:20px;
-  letter-spacing:2px;
-  background-image: url("assets/background-2.jpg");
-  background-size: cover;
-  opacity: 0.5;
+  height: 100vh;
 }
-#header{
-    text-align:center;
-    background-color: greenyellow
-}
-
-img:hover {
-    transform: scale(1.1);
-    filter: grayscale(20%);
-}
-
-img{
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    padding: 1px;
-    background-color: #666;
-    transition: all 0.5s ease-in-out;
-    filter: grayscale(40%);
-}
-
-
-
-#contact-info{
-  width: auto;
-  height: 100px;
-  background: greenyellow;
-  filter: grayscale(60%);
-}
-
