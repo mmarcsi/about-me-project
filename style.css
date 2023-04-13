@@ -14,9 +14,9 @@ body {
   display:flex;
   justify-content:center;
   align-items:center;
-  font-family:CPoppins;
+  font-family:Poppins;
   height: 100vh;
-  background: url(assets/background-6.jpg) no-repeat center center fixed;
+  background: url(assets/background-2.jpg) no-repeat center center fixed;
   background-size:cover;
   position:relative;
   
@@ -39,7 +39,7 @@ body {
   }
 
 .header:hover{
-    background-color: bisque;
+    background-color: rgb(223, 224, 128);
   }
 
 .name-headline{
