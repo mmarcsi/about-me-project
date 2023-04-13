@@ -5,41 +5,95 @@
   box-sizing:border-box;
   font-size:100%;
 }
+
 /*container background-colours */
 
-.profile-card{
-  background-color: rgb(166, 255, 0);
-}
+
 
 .header{
   background-color: green;
 }
 
-.profile-image{
-  background-color: blueviolet;
-}
 
-.name-headline{
-  background-color: brown;
-}
 
-.content{
-  background-color: cornflowerblue;
-}
+
+
 .contact-info{
   background-color: darkorange;
-}
 
-.profile-card{
-  width: 480px;
-  max-width: calc(100vw - 10px);
- 
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
   font-family:Cabin;
   height: 100vh;
+  background: url(assets/background-6.jpg) no-repeat center center fixed;
+  background-size:cover;
+  position:relative;
+  
+}
+
+.profile-card{
+  width:500px;
+  max-width: calc(100vw - 20px);
+ 
+}
+
+.header{
+  position: relative;
+  left: -220px;
+  top:20px;
+  text-align:center;
+  width: 90%;
+  padding: 5%;
+  background-color: rgb(255, 255, 204, .4)
+}
+
+.content{
+  position: relative;
+  top:50px;
+  left:150px;
+  text-align:justify;
+  padding: 8%;
+  background-color: rgb(229, 255, 255, .4)
+}
+
+.contact-info{
+  position: relative;
+  top:70px;
+  left:100px;
+  padding:1%;
+  background-color: rgb(229, 255, 255, .4)
+}
+
+
+img{
+  filter: grayscale(30%);
+  transition: all 0.5s ease-in-out;
+  width: 160px;
+  height: auto;
+  border-radius: 50%;
+  padding: 2px;
+  background-color: beige;
+}
+
+img:hover{
+  filter: grayscale(20%);
+  transform: scale(1.1);
+}
+.contact-info{
+  position:relative;
+  margin-left:300px;
+  text-align:center;
+
+}
+ul{
+  list-style-type: none;
+}
+
+li{
+  display: inline;
+  
 }
